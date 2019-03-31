@@ -1,0 +1,261 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: #00c851;
+    float: left;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    box-shadow: 0 0 15px black;
+    top: 0;
+    left: 0;
+}
+.sidebar a{
+    text-decoration: none;
+    color: #baf5d2;
+    display: block;
+    text-align: center;
+    padding: 15px 25px;
+    font-size: 18px;
+}
+.sidebar a:hover{
+    color: white;
+}
+
+.sidebar img{
+    margin-left:70px;
+    margin-top: 100px;
+    border: 10px solid #1bad56;
+    box-shadow: 0 0 15px black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/*------------About Section----------*/
+
+#about-section{
+    margin-left: 315px;
+    padding: 20px;
+}
+#about-section h1{
+    font-family:'Fjalla One', sans-serif;
+    font-size: 80px;
+    margin: 120px 0 0 0;
+}
+.fname{
+    color: #5fc356;
+    text-shadow: 0 0 5px black;
+}
+.lname{
+    color: indigo;
+    text-shadow: 0 0 5px black;
+}
+.about-section h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+}
+#about-section p{
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 110px;
+}
+
+/*---------Education Section------------*/
+#edu-section{
+    margin-left: 315px;
+    padding: 20px;
+}
+.main-heading {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 10px green;
+    text-align: justify;
+}
+.edu-article {
+    background-color: #ffffff;
+    color: #778168;
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00c851;
+}
+.edu-article:hover {
+    transform: perspective(700px) rotateX(20deg);
+    transition: all 0.5s;
+}
+.edu-article h3{
+    font-family: 'Courgette', cursive;
+    color: white;
+    text-shadow: 0 0 10px red;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+/*----------Experience Section------------*/
+#exp-section{
+    margin-left: 315px;
+}
+
+.exp-article h3{
+    color:white;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Courgette', cursive;
+    padding: 5px;
+    text-shadow: 0 0 10px red;
+}
+
+.exp-article-button{
+    background-color: #5fc356;
+    color: white;
+    border: 5px solid white;
+    padding: 8px;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 50px;
+    box-shadow: 0 0 15px #00c851;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.exp-article{
+    margin: 10px;
+    color: grey;
+    font-size: 16px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    width: 280px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 25px #00c851;
+    display: inline-block;
+}
+.exp-article:hover{
+    transform: perspective(400px) rotateY(10deg);
+    transition: all 0.5s ;
+
+}
+.exp {
+    margin-left: 10px;
+    font-size: 40px;
+    text-shadow: 0 0 10px green;
+    text-align: left;
+}
+/*------------Skills Section--------------*/
+
+#skills-section{
+    margin-left: 315px;
+    text-align: justify;
+}
+
+.skills-article{
+    margin: 20px;
+    padding: 10px;
+    color: grey;
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+}
+.skills-article:hover {
+    transform: perspective(400px) rotateX(-10deg);
+    transition: all 0.5s;
+}
+.main-heading {
+    font-family: "Franklin Gothic Medium",Sans-Serif;
+    font-size: 40px;
+    text-shadow: 0 0 10px green;
+}
+.skills-article h3{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 25px;
+    text-shadow: 0 0 10px red;
+
+
+}
+.fab , .fas{
+    margin: 10px;
+    color: black;
+}
+.fab:hover , .fas:hover {
+    color: #00c851;
+}
+/*---------------Interest Section--------------------*/
+
+#interests{
+    margin-left: 315px;
+    text-align: justify;
+}
+
+
+/* ---------------- Certification Section ------------- */
+#cert-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+#cert-text{
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.cert-article{
+    padding: 10px;
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    transition: all 0.5s;
+}
+.cert-article p{
+    padding: 15px;
+}
+.cert-article:hover{
+    background-color: #00c851;
+    color: white;
+    transform: perspective(400px) translatey(-20px);
+    transition: all 0.5s ;
+
+}
+.cert-article img{
+    width: 100px;
+    height: 100px;
+    margin-top:-50px;
+
+}
+
+
+/* ----------------------- Main Footer ---------------- */
+footer{
+    padding: 12px;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 0 20px ;
+}
+footer p{
+    color: black;
+    text-shadow: 0 0 10px green;
+}
+footer h3{
+    text-align: center;
+    color: royalblue;
+    text-shadow: 0 0 10px grey;
+}
+footer a{
+    color: blue;
+    text-decoration: none;
+}
